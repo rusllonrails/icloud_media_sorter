@@ -7,7 +7,9 @@ ruby '2.6.4'
 
 group :test do
   gem 'rspec', '~> 3.8'
-  gem 'rspec_junit_formatter'
+  gem 'rspec_junit_formatter', '~> 0.4'
+  gem 'simplecov', '~> 0.13'
+  gem 'codeclimate-test-reporter', '~> 1.0'
   gem 'rubocop-rspec'
 end
 
