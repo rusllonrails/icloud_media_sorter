@@ -1,16 +1,17 @@
 # frozen_string_literal: true
 
+require './lib/source_folder_path_validator'
+
 class MediaSorter
+  include ::SourceFolderPathValidator
 
-  attr_reader :targer_folder_path
-  private :targer_folder_path
+  attr_reader :source_folder_path
+  private :source_folder_path
 
-  def initialize(targer_folder_path)
-  	@targer_folder_path = targer_folder_path
-  end
+  validate_source_folder_path
 
-  def valid?
-  	# TODO
+  def initialize(source_folder_path)
+  	@source_folder_path = source_folder_path
   end
 
   def sort!
