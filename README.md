@@ -1,7 +1,7 @@
 ICloud Photo - Media Sorter
 ==================================
 
-[![CircleCI](https://circleci.com/gh/rusllonrails/media_sorter.svg?style=svg)](https://circleci.com/gh/rusllonrails/media_sorter)
+[![CircleCI](https://circleci.com/gh/rusllonrails/icloud_media_sorter.svg?style=svg)](https://circleci.com/gh/rusllonrails/icloud_media_sorter)
 
 Lightweight Ruby library for converting of your photo folders downloaded from ICloud Photo grouped by year to folders organized by year and month. https://www.icloud.com/photos/
 
