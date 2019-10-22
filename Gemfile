@@ -5,6 +5,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.4'
 
+gem 'exif', '~> 2.2'
+
 group :test do
   gem 'rspec', '~> 3.8'
   gem 'rspec_junit_formatter', '~> 0.4'
