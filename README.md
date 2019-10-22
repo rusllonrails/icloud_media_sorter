@@ -13,6 +13,15 @@ Ruby (2.6.4)
 
 ## Local Setup
 
+Please make sure you have installed 'libexif' at first:
+
+```
+$ brew install libexif             # Homebrew
+$ sudo apt-get install libexif-dev # APT
+$ sudo yum install libexif-devel   # CentOS
+```
+
+Then:
 ```
 gem install bundler:2.0.2
 bundle
